@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is API generated -->
+<settings version="2">
+ <setting value="start /wait cmd" name="sync_details"/>
+ <setting value="MONITOR" name="sync_type"/>
+ <setting value="" name="sync_working_directory"/>
+ <component_directories/>
+ <root_paths/>
+ <editor_settings/>
+ <license_servers/>
+</settings>

@@ -1,0 +1,502 @@
+<RDEF> I Includes
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" E:/Reagan/code/QAC_code/QAC_MPC5748G/prqa/configs/Initial/config/DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Stub/prlforceinclude/GH_ppc.h 0
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" C:/ghs/comp_201854_ppc/ansi/stdio.h 1
+<RDEF> U Uses
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __ghs__ 14 M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 15 ghs startnomisra
+<DEFINE> _STDIO_H C:/ghs/comp_201854_ppc/ansi/stdio.h 17 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h _STDIO_H 13 M
+<R>I C:/ghs/comp_201854_ppc/ansi/stdio.h C:/ghs/comp_201854_ppc/ansi/ghs_null.h 18
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 12 5 I ON - F P
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_null.h 22 ghs startnomisra
+<DEFINE> NULL C:/ghs/comp_201854_ppc/ansi/ghs_null.h 36 I DF OM - - - O
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 36 27 I ON - F M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h NULL 34 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __LLONG_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __PTR_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __LONG_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __INT_BIT 39 M
+<DEFINE> _SIZE_T C:/ghs/comp_201854_ppc/ansi/ghs_null.h 46 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h _SIZE_T 45 M
+<DEFINE> _SIZE_T_DEFINED C:/ghs/comp_201854_ppc/ansi/ghs_null.h 47 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h _SIZE_T_DEFINED 45 M
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 48 31 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 48 43 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 50 9 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 50 21 I DN - F P
+<DEFINE> size_t C:/ghs/comp_201854_ppc/ansi/ghs_null.h 53 I DC OT F N ui -
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_null.h 58 ghs endnomisra
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 20 47 I DN - F P
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 22 49 I DN - F P
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 26 45 I DN - F P
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 28 47 I DN - F P
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __STDC__ 34 M
+<R>I C:/ghs/comp_201854_ppc/ansi/stdio.h C:/ghs/comp_201854_ppc/ansi/stdarg.h 35
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdarg.h 15 ghs startnomisra
+<DEFINE> _STDARG_H C:/ghs/comp_201854_ppc/ansi/stdarg.h 17 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h _STDARG_H 13 M
+<R>I C:/ghs/comp_201854_ppc/ansi/stdarg.h C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 35
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 15 ghs startnomisra
+<DEFINE> _GHS_VALIST_H C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 17 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h _GHS_VALIST_H 13 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h __EDG__ 27 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h __ghs_max_pack_value 27 M
+<DEFINE> ___ghs_did_pack C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 28 I DF OM - - - O
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 29 pack (push, 16)
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h __SoftwareFloat 32 M
+<DEFINE> __FP_USES_IREGS C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 33 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h __FP_USES_IREGS 36 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h __ppc 67 M
+<DEFINE> _gh_va_struct C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC TG F N {s_gh_va_struct} -
+<DEFINE> _gh_va_struct C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DF TG F N {s_gh_va_struct} -
+<DEFINE> _oflo_ptr C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC MB F N pni -
+<DEFINE> _reg_ptr C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC MB F N pni -
+<DEFINE> _int_cnt C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC MB F N ni -
+<DEFINE> _FP_cnt C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC MB F N ni -
+<DEFINE> _mem_cnt C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC MB F N ni -
+<DEFINE> _gh_va_list C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 69 I DC OT F N {s_gh_va_struct} -
+<DEFINE> _va_struct C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DC TG F N {s_va_struct} -
+<DEFINE> _va_struct C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DF TG F N {s_va_struct} -
+<DEFINE> _gpr C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DC MB F N _c -
+<DEFINE> _fpr C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DC MB F N _c -
+<DEFINE> _pad1 C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DC MB F N _c -
+<DEFINE> _pad2 C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 70 I DC MB F N _c -
+<DEFINE> _overflow_arg_area C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 74 I DC MB F N p_c -
+<DEFINE> _reg_save_area C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 74 I DC MB F N p_c -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 74 89 I DN ni F D
+<DEFINE> __gh_va_list C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 74 I DC OT F N [1,{s_va_struct}] -
+<DEFINE> __va_copy_as_struct C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 75 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_valist.h ___ghs_did_pack 116 M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 118 pack (pop)
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_valist.h 126 ghs endnomisra
+<DEFINE> __va_list_defined C:/ghs/comp_201854_ppc/ansi/stdarg.h 38 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __va_list_defined 37 M
+<DEFINE> va_list C:/ghs/comp_201854_ppc/ansi/stdarg.h 42 I DC OT F N [1,{s_va_struct}] -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __gh_va_list 42 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __PROTOTYPES__ 54 M
+<DEFINE> __ARGS C:/ghs/comp_201854_ppc/ansi/stdarg.h 55 I DF OM - - - F
+<DEFINE> va_end C:/ghs/comp_201854_ppc/ansi/stdarg.h 76 I DF OM - - - F
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 76 30 I ON - F M
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __va_copy_as_struct 78 M
+<DEFINE> va_copy C:/ghs/comp_201854_ppc/ansi/stdarg.h 79 I DF OM - - - F
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 79 39 I ON - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 79 50 I ON - F M
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __ARGS 186 M
+<EXTN> __gh_va_arg C:/ghs/comp_201854_ppc/ansi/stdarg.h 186
+<DEFINE> __gh_va_arg C:/ghs/comp_201854_ppc/ansi/stdarg.h 186 I DC OF F X (p_c,p{s_gh_va_struct},ni,ni,ni) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h _gh_va_list 186 A
+<EXTN> __va_arg C:/ghs/comp_201854_ppc/ansi/stdarg.h 187
+<DEFINE> __va_arg C:/ghs/comp_201854_ppc/ansi/stdarg.h 187 I DC OF F X (p.,p{s_va_struct},ni) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h va_list 187 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __gh_va_list 187 A
+<DEFINE> __greg_va_type C:/ghs/comp_201854_ppc/ansi/stdarg.h 198 I DF OM - - - F
+<LIT> 16 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 204 44 I DN - F M
+<LIT> 4 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 204 49 I DN - F M
+<LIT> 3 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 204 53 I DN - F M
+<LIT> 5 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 205 30 I DN - F M
+<LIT> 4 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 206 27 I DN - F M
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 206 32 I DN - F M
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 206 36 I DN - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 208 1 I ON - F M
+<R>U C:/ghs/comp_201854_ppc/ansi/stdarg.h __BigEndian 224 M
+<DEFINE> va_arg C:/ghs/comp_201854_ppc/ansi/stdarg.h 225 I DF OM - - - F
+<LIT> 3 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 228 26 I DN - F M
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdarg.h 228 56 I DN - F M
+<LIT> 4 u N C:/ghs/comp_201854_ppc/ansi/stdarg.h 231 71 I DN - F M
+<DEFINE> va_start C:/ghs/comp_201854_ppc/ansi/stdarg.h 237 I DF OM - - - F
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdarg.h 422 ghs endnomisra
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 52 pack (push, 16)
+<DEFINE> _iobuf C:/ghs/comp_201854_ppc/ansi/stdio.h 54 I DC TG F N {s_iobuf} -
+<DEFINE> _iobuf C:/ghs/comp_201854_ppc/ansi/stdio.h 54 I DF TG F N {s_iobuf} -
+<DEFINE> _io_next C:/ghs/comp_201854_ppc/ansi/stdio.h 55 I DC MB F N puc -
+<DEFINE> _io_base C:/ghs/comp_201854_ppc/ansi/stdio.h 57 I DC MB F N puc -
+<DEFINE> _io_left C:/ghs/comp_201854_ppc/ansi/stdio.h 58 I DC MB F N ni -
+<LIT> 14 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 59 27 I DN ni F B
+<DEFINE> _io_channel C:/ghs/comp_201854_ppc/ansi/stdio.h 59 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 60 25 I DN ni F B
+<DEFINE> _io_used C:/ghs/comp_201854_ppc/ansi/stdio.h 60 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 61 27 I DN ni F B
+<DEFINE> _io_append C:/ghs/comp_201854_ppc/ansi/stdio.h 61 I DC MB F N ub -
+<DEFINE> _io_tmp C:/ghs/comp_201854_ppc/ansi/stdio.h 62 I DC MB F N uc -
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 63 29 I DN ni F B
+<DEFINE> _io_buffering C:/ghs/comp_201854_ppc/ansi/stdio.h 63 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 64 24 I DN ni F B
+<DEFINE> _io_eof C:/ghs/comp_201854_ppc/ansi/stdio.h 64 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 65 25 I DN ni F B
+<DEFINE> _io_error C:/ghs/comp_201854_ppc/ansi/stdio.h 65 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 66 32 I DN ni F B
+<DEFINE> _io_stdio_buffer C:/ghs/comp_201854_ppc/ansi/stdio.h 66 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 67 28 I DN ni F B
+<DEFINE> _io_readable C:/ghs/comp_201854_ppc/ansi/stdio.h 67 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 68 28 I DN ni F B
+<DEFINE> _io_writable C:/ghs/comp_201854_ppc/ansi/stdio.h 68 I DC MB F N ub -
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 69 29 I DN ni F B
+<DEFINE> _io_readwrite C:/ghs/comp_201854_ppc/ansi/stdio.h 69 I DC MB F N ub -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __CHAR_BIT 70 M
+<LIT> 8 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 70 5 I DN - F P
+<LIT> 8 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 70 18 I DN - F P
+<DEFINE> FILE C:/ghs/comp_201854_ppc/ansi/stdio.h 74 I DC OT F N {s_iobuf} -
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 104 pack(pop)
+<DEFINE> _FPOS_T C:/ghs/comp_201854_ppc/ansi/stdio.h 108 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h _FPOS_T 107 M
+<DEFINE> fpos_t C:/ghs/comp_201854_ppc/ansi/stdio.h 109 I DC OT F N nl -
+<DEFINE> _IOFBF C:/ghs/comp_201854_ppc/ansi/stdio.h 112 I DF OM - - - O
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 112 25 I ON - F M
+<DEFINE> _IOLBF C:/ghs/comp_201854_ppc/ansi/stdio.h 113 I DF OM - - - O
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 113 25 I DN - F M
+<DEFINE> _IONBF C:/ghs/comp_201854_ppc/ansi/stdio.h 114 I DF OM - - - O
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 114 25 I DN - F M
+<DEFINE> _IOPBF C:/ghs/comp_201854_ppc/ansi/stdio.h 115 I DF OM - - - O
+<LIT> 3 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 115 25 I DN - F M
+<DEFINE> _GHS_IOPBF_AVAILABLE C:/ghs/comp_201854_ppc/ansi/stdio.h 117 I DF OM - - - O
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 117 30 I DN - F M
+<DEFINE> EOF C:/ghs/comp_201854_ppc/ansi/stdio.h 119 I DF OM - - - O
+<LIT> 1 - N C:/ghs/comp_201854_ppc/ansi/stdio.h 119 27 I DN - F M
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 120 24 I DN - F P
+<LIT> 16 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 120 37 I DN - F P
+<DEFINE> BUFSIZ C:/ghs/comp_201854_ppc/ansi/stdio.h 123 I DF OM - - - O
+<LIT> 512 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 123 33 I DN - F M
+<DEFINE> FOPEN_MAX C:/ghs/comp_201854_ppc/ansi/stdio.h 125 I DF OM - - - O
+<LIT> 20 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 125 25 I DN - F M
+<DEFINE> L_tmpnam C:/ghs/comp_201854_ppc/ansi/stdio.h 126 I DF OM - - - O
+<LIT> 16 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 126 25 I DN - F M
+<DEFINE> FILENAME_MAX C:/ghs/comp_201854_ppc/ansi/stdio.h 127 I DF OM - - - O
+<LIT> 1023 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 127 25 I DN - F M
+<DEFINE> SEEK_CUR C:/ghs/comp_201854_ppc/ansi/stdio.h 129 I DF OM - - - O
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 129 25 I DN - F M
+<DEFINE> SEEK_END C:/ghs/comp_201854_ppc/ansi/stdio.h 130 I DF OM - - - O
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 130 25 I DN - F M
+<DEFINE> SEEK_SET C:/ghs/comp_201854_ppc/ansi/stdio.h 131 I DF OM - - - O
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 131 25 I ON - F M
+<DEFINE> TMP_MAX C:/ghs/comp_201854_ppc/ansi/stdio.h 136 I DF OM - - - O
+<LIT> 1048576 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 136 25 I DN - F M
+<DEFINE> stdin C:/ghs/comp_201854_ppc/ansi/stdio.h 139 I DF OM - - - O
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 139 22 I ON - F M
+<DEFINE> stdout C:/ghs/comp_201854_ppc/ansi/stdio.h 140 I DF OM - - - O
+<LIT> 1 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 140 23 I DN - F M
+<DEFINE> stderr C:/ghs/comp_201854_ppc/ansi/stdio.h 141 I DF OM - - - O
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 141 23 I DN - F M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 145 ghs startdata
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 146 ghs nowarning 1824
+<EXTN> _iob C:/ghs/comp_201854_ppc/ansi/stdio.h 148
+<DEFINE> _iob C:/ghs/comp_201854_ppc/ansi/stdio.h 148 I DC OV F X [0,{s_iobuf}] S
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 148 A
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 150 ghs endnowarning
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 151 ghs enddata
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __STDC_VERSION__ 155 M
+<LIT> 199409 L P C:/ghs/comp_201854_ppc/ansi/stdio.h 155 35 I DN - F P
+<LIT> 199901 L P C:/ghs/comp_201854_ppc/ansi/stdio.h 155 53 I DN - F P
+<DEFINE> __Restrict C:/ghs/comp_201854_ppc/ansi/stdio.h 158 I DF OM - - - O
+<EXTN> remove C:/ghs/comp_201854_ppc/ansi/stdio.h 165
+<DEFINE> remove C:/ghs/comp_201854_ppc/ansi/stdio.h 165 I DC OF F X (ni,p=_c) -
+<EXTN> rename C:/ghs/comp_201854_ppc/ansi/stdio.h 166
+<DEFINE> rename C:/ghs/comp_201854_ppc/ansi/stdio.h 166 I DC OF F X (ni,p=_c,p=_c) -
+<EXTN> tmpfile C:/ghs/comp_201854_ppc/ansi/stdio.h 167
+<DEFINE> tmpfile C:/ghs/comp_201854_ppc/ansi/stdio.h 167 I DC OF F X (p{s_iobuf},.) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 167 A
+<EXTN> tmpnam C:/ghs/comp_201854_ppc/ansi/stdio.h 168
+<DEFINE> tmpnam C:/ghs/comp_201854_ppc/ansi/stdio.h 168 I DC OF F X (p_c,p_c) -
+<EXTN> _flsbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 170
+<DEFINE> _flsbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 170 I DC OF F X (ni,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 170 A
+<EXTN> _filbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 171
+<DEFINE> _filbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 171 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 171 A
+<EXTN> fclose C:/ghs/comp_201854_ppc/ansi/stdio.h 172
+<DEFINE> fclose C:/ghs/comp_201854_ppc/ansi/stdio.h 172 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 172 A
+<EXTN> fflush C:/ghs/comp_201854_ppc/ansi/stdio.h 173
+<DEFINE> fflush C:/ghs/comp_201854_ppc/ansi/stdio.h 173 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 173 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __Restrict 174 M
+<EXTN> fopen C:/ghs/comp_201854_ppc/ansi/stdio.h 174
+<DEFINE> fopen C:/ghs/comp_201854_ppc/ansi/stdio.h 174 I DC OF F X (p{s_iobuf},p=_c,p=_c) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 174 A
+<EXTN> freopen C:/ghs/comp_201854_ppc/ansi/stdio.h 175
+<DEFINE> freopen C:/ghs/comp_201854_ppc/ansi/stdio.h 175 I DC OF F X (p{s_iobuf},p=_c,p=_c,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 175 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 175 A
+<EXTN> fdopen C:/ghs/comp_201854_ppc/ansi/stdio.h 176
+<DEFINE> fdopen C:/ghs/comp_201854_ppc/ansi/stdio.h 176 I DC OF F X (p{s_iobuf},ni,p=_c) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 176 A
+<EXTN> setbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 177
+<DEFINE> setbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 177 I DC OF F X (.,p{s_iobuf},p_c) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 177 A
+<EXTN> setvbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 178
+<DEFINE> setvbuf C:/ghs/comp_201854_ppc/ansi/stdio.h 178 I DC OF F X (ni,p{s_iobuf},p_c,ni,ui) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 178 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 178 A
+<EXTN> fprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 210
+<DEFINE> fprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 210 I DC OF F X (ni,p{s_iobuf},p=_c,:) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 210 A
+<EXTN> fscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 211
+<DEFINE> fscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 211 I DC OF F X (ni,p{s_iobuf},p=_c,:) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 211 A
+<EXTN> printf C:/ghs/comp_201854_ppc/ansi/stdio.h 212
+<DEFINE> printf C:/ghs/comp_201854_ppc/ansi/stdio.h 212 I DC OF F X (ni,p=_c,:) -
+<EXTN> scanf C:/ghs/comp_201854_ppc/ansi/stdio.h 213
+<DEFINE> scanf C:/ghs/comp_201854_ppc/ansi/stdio.h 213 I DC OF F X (ni,p=_c,:) -
+<EXTN> snprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 214
+<DEFINE> snprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 214 I DC OF F X (ni,p_c,ui,p=_c,:) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 214 A
+<EXTN> sprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 215
+<DEFINE> sprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 215 I DC OF F X (ni,p_c,p=_c,:) -
+<EXTN> sscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 216
+<DEFINE> sscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 216 I DC OF F X (ni,p=_c,p=_c,:) -
+<EXTN> fgetc C:/ghs/comp_201854_ppc/ansi/stdio.h 218
+<DEFINE> fgetc C:/ghs/comp_201854_ppc/ansi/stdio.h 218 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 218 A
+<EXTN> fgets C:/ghs/comp_201854_ppc/ansi/stdio.h 219
+<DEFINE> fgets C:/ghs/comp_201854_ppc/ansi/stdio.h 219 I DC OF F X (p_c,p_c,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 219 A
+<EXTN> fputc C:/ghs/comp_201854_ppc/ansi/stdio.h 220
+<DEFINE> fputc C:/ghs/comp_201854_ppc/ansi/stdio.h 220 I DC OF F X (ni,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 220 A
+<EXTN> fputs C:/ghs/comp_201854_ppc/ansi/stdio.h 221
+<DEFINE> fputs C:/ghs/comp_201854_ppc/ansi/stdio.h 221 I DC OF F X (ni,p=_c,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 221 A
+<EXTN> getc C:/ghs/comp_201854_ppc/ansi/stdio.h 222
+<DEFINE> getc C:/ghs/comp_201854_ppc/ansi/stdio.h 222 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 222 A
+<EXTN> getchar C:/ghs/comp_201854_ppc/ansi/stdio.h 223
+<DEFINE> getchar C:/ghs/comp_201854_ppc/ansi/stdio.h 223 I DC OF F X (ni,.) -
+<LIT> 201402 L P C:/ghs/comp_201854_ppc/ansi/stdio.h 224 45 I DN - F P
+<EXTN> gets C:/ghs/comp_201854_ppc/ansi/stdio.h 225
+<DEFINE> gets C:/ghs/comp_201854_ppc/ansi/stdio.h 225 I DC OF F X (p_c,p_c) -
+<EXTN> putc C:/ghs/comp_201854_ppc/ansi/stdio.h 227
+<DEFINE> putc C:/ghs/comp_201854_ppc/ansi/stdio.h 227 I DC OF F X (ni,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 227 A
+<EXTN> putchar C:/ghs/comp_201854_ppc/ansi/stdio.h 228
+<DEFINE> putchar C:/ghs/comp_201854_ppc/ansi/stdio.h 228 I DC OF F X (ni,ni) -
+<EXTN> puts C:/ghs/comp_201854_ppc/ansi/stdio.h 229
+<DEFINE> puts C:/ghs/comp_201854_ppc/ansi/stdio.h 229 I DC OF F X (ni,p=_c) -
+<EXTN> ungetc C:/ghs/comp_201854_ppc/ansi/stdio.h 230
+<DEFINE> ungetc C:/ghs/comp_201854_ppc/ansi/stdio.h 230 I DC OF F X (ni,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 230 A
+<EXTN> getc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 231
+<DEFINE> getc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 231 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 231 A
+<EXTN> getchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 232
+<DEFINE> getchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 232 I DC OF F X (ni,.) -
+<EXTN> putc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 233
+<DEFINE> putc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 233 I DC OF F X (ni,ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 233 A
+<EXTN> putchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 234
+<DEFINE> putchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 234 I DC OF F X (ni,ni) -
+<EXTN> fread C:/ghs/comp_201854_ppc/ansi/stdio.h 235
+<DEFINE> fread C:/ghs/comp_201854_ppc/ansi/stdio.h 235 I DC OF F X (ui,p.,ui,ui,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 235 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 235 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 235 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 235 A
+<EXTN> fwrite C:/ghs/comp_201854_ppc/ansi/stdio.h 236
+<DEFINE> fwrite C:/ghs/comp_201854_ppc/ansi/stdio.h 236 I DC OF F X (ui,p=.,ui,ui,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 236 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 236 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 236 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 236 A
+<EXTN> fgetpos C:/ghs/comp_201854_ppc/ansi/stdio.h 238
+<DEFINE> fgetpos C:/ghs/comp_201854_ppc/ansi/stdio.h 238 I DC OF F X (ni,p{s_iobuf},pnl) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 238 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h fpos_t 238 A
+<EXTN> fseek C:/ghs/comp_201854_ppc/ansi/stdio.h 239
+<DEFINE> fseek C:/ghs/comp_201854_ppc/ansi/stdio.h 239 I DC OF F X (ni,p{s_iobuf},nl,ni) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 239 A
+<EXTN> fsetpos C:/ghs/comp_201854_ppc/ansi/stdio.h 240
+<DEFINE> fsetpos C:/ghs/comp_201854_ppc/ansi/stdio.h 240 I DC OF F X (ni,p{s_iobuf},p=nl) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 240 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h fpos_t 240 A
+<EXTN> ftell C:/ghs/comp_201854_ppc/ansi/stdio.h 241
+<DEFINE> ftell C:/ghs/comp_201854_ppc/ansi/stdio.h 241 I DC OF F X (nl,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 241 A
+<EXTN> rewind C:/ghs/comp_201854_ppc/ansi/stdio.h 242
+<DEFINE> rewind C:/ghs/comp_201854_ppc/ansi/stdio.h 242 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 242 A
+<EXTN> clearerr C:/ghs/comp_201854_ppc/ansi/stdio.h 244
+<DEFINE> clearerr C:/ghs/comp_201854_ppc/ansi/stdio.h 244 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 244 A
+<EXTN> fileno C:/ghs/comp_201854_ppc/ansi/stdio.h 245
+<DEFINE> fileno C:/ghs/comp_201854_ppc/ansi/stdio.h 245 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 245 A
+<EXTN> feof C:/ghs/comp_201854_ppc/ansi/stdio.h 246
+<DEFINE> feof C:/ghs/comp_201854_ppc/ansi/stdio.h 246 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 246 A
+<EXTN> ferror C:/ghs/comp_201854_ppc/ansi/stdio.h 247
+<DEFINE> ferror C:/ghs/comp_201854_ppc/ansi/stdio.h 247 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 247 A
+<EXTN> perror C:/ghs/comp_201854_ppc/ansi/stdio.h 248
+<DEFINE> perror C:/ghs/comp_201854_ppc/ansi/stdio.h 248 I DC OF F X (.,p=_c) -
+<DEFINE> __ARGS C:/ghs/comp_201854_ppc/ansi/stdio.h 282 I DF OM - - - F
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __ARGS 289 M
+<EXTN> vfprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 289
+<DEFINE> vfprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 289 I DC OF F X (ni,p{s_iobuf},p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 289 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 289 A
+<EXTN> vprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 290
+<DEFINE> vprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 290 I DC OF F X (ni,p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 290 A
+<EXTN> vsnprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 291
+<DEFINE> vsnprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 291 I DC OF F X (ni,p_c,ui,p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h size_t 291 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 291 A
+<EXTN> vsprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 292
+<DEFINE> vsprintf C:/ghs/comp_201854_ppc/ansi/stdio.h 292 I DC OF F X (ni,p_c,p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 292 A
+<EXTN> vfscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 293
+<DEFINE> vfscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 293 I DC OF F X (ni,p{s_iobuf},p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 293 A
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 293 A
+<EXTN> vscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 294
+<DEFINE> vscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 294 I DC OF F X (ni,p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 294 A
+<EXTN> vsscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 295
+<DEFINE> vsscanf C:/ghs/comp_201854_ppc/ansi/stdio.h 295 I DC OF F X (ni,p=_c,p=_c,p{s_va_struct}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h __gh_va_list 295 A
+<DEFINE> getchar C:/ghs/comp_201854_ppc/ansi/stdio.h 302 I DF OM - - - F
+<DEFINE> putchar C:/ghs/comp_201854_ppc/ansi/stdio.h 303 I DF OM - - - F
+<DEFINE> fileno C:/ghs/comp_201854_ppc/ansi/stdio.h 304 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 304 33 I SN - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 306 33 I SN - F M
+<DEFINE> _fileno C:/ghs/comp_201854_ppc/ansi/stdio.h 309 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 309 33 I SN - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 311 33 I SN - F M
+<DEFINE> feof C:/ghs/comp_201854_ppc/ansi/stdio.h 313 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 313 33 I SN - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 315 33 I SN - F M
+<DEFINE> ferror C:/ghs/comp_201854_ppc/ansi/stdio.h 316 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 316 33 I SN - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 318 33 I SN - F M
+<DEFINE> putc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 347 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 347 41 I SN - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 348 50 I ON - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 350 41 I SN - F M
+<DEFINE> getc_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 351 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 351 41 I SN - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 352 50 I ON - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 353 41 I SN - F M
+<DEFINE> putc_safe_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 354 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 354 42 I SN - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 355 56 I ON - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 355 77 I ON - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 357 42 I SN - F M
+<DEFINE> getc_safe_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 358 I DF OM - - - F
+<LIT> "ghs startnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 358 41 I SN - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 359 55 I ON - F M
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stdio.h 359 76 I ON - F M
+<LIT> "ghs endnomisra" - - C:/ghs/comp_201854_ppc/ansi/stdio.h 361 41 I SN - F M
+<DEFINE> getchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 362 I DF OM - - - F
+<DEFINE> putchar_unlocked C:/ghs/comp_201854_ppc/ansi/stdio.h 363 I DF OM - - - F
+<EXTN> flockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 367
+<DEFINE> flockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 367 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 367 A
+<EXTN> ftrylockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 368
+<DEFINE> ftrylockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 368 I DC OF F X (ni,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 368 A
+<EXTN> funlockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 369
+<DEFINE> funlockfile C:/ghs/comp_201854_ppc/ansi/stdio.h 369 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 369 A
+<EXTN> flockcreate C:/ghs/comp_201854_ppc/ansi/stdio.h 371
+<DEFINE> flockcreate C:/ghs/comp_201854_ppc/ansi/stdio.h 371 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 371 A
+<EXTN> flockdestroy C:/ghs/comp_201854_ppc/ansi/stdio.h 372
+<DEFINE> flockdestroy C:/ghs/comp_201854_ppc/ansi/stdio.h 372 I DC OF F X (.,p{s_iobuf}) -
+<R>U C:/ghs/comp_201854_ppc/ansi/stdio.h FILE 372 A
+<EXTN> __ghs_flock_in_use C:/ghs/comp_201854_ppc/ansi/stdio.h 374
+<DEFINE> __ghs_flock_in_use C:/ghs/comp_201854_ppc/ansi/stdio.h 374 I DC OF F X (ni,p.) -
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stdio.h 399 ghs endnomisra
+<EXTD> main "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 3
+<DEFINE> argc "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 3 N DC OV B N ni R
+<DEFINE> argv "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 3 N DC OV B N pp_c R
+<DEFINE> main "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 3 N DC OF F X (ni,ni,pp_c) -
+<DEFINE> main "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 3 N DF OF F X (ni,ni,pp_c) -
+<RDEF> C Calls
+<R>C main printf 5
+<RDEF> X Refers-to
+<R>X main printf 5 R
+<LIT> "Hello world.\n" - - "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 5 12 N SN [14,_c] B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c" 6 12 N ON ni B X
+<CTLG> main 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 4 6 6 6 
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c"
+<S>STNAM  main
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STFDT  6
+<S>STFDN  3
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  2
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>NPATH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  5
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  7
+<S>STFN2  3
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c"
+<S>STNAM  main
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c"
+<S>STNAM  "D:/Documents/My Projects/MPC5748G_demo1/src_hello/hello.c"
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  1
+<S>STFCO  1
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  4
+<S>STOPT  14
+<S>STOPN  6
+<S>STTOT  25
+<S>STZIP  71
+<S>STHAL  69
+<S>STSHN  206
+<S>STDIF  6.97   
+<S>STEFF  753
+<S>STVOL  108
+<S>STDEV  0.13   
+<S>STBUG  0
+<S>STTPP  7
+<S>STTLN  5
+<S>STM20  6
+<S>STM21  18
+<S>STM22  2
+<S>STM28  0
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.013  
+<S>STBMS  0.012  
+<S>STBME  0.009  
+<S>STTDO  0.482  
+<S>STTDS  0.525  
+<S>STTDE  0.560  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.000  
+

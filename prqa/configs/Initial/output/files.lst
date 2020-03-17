@@ -1,0 +1,6 @@
+-op E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\output\libstartup-b99b184dd4b29c640f46
+"D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+"D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_initmem.c"
+"D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_uzip.c"
+-op E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\output\src_hello-fbfdbb7ed9a239db376d
+"D:\Documents\My Projects\MPC5748G_demo1\src_hello\hello.c"

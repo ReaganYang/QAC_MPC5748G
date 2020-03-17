@@ -1,0 +1,123 @@
+﻿* ===[ CIP FILE CONTENT ]===
+-i "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude"
+-q "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude"
+-fi "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude\GH_ppc.h"
+-i "c:\ghs\comp_201254\include\ppc"
+-q "c:\ghs\comp_201254\include\ppc"
+-i "c:\ghs\comp_201254\ansi"
+-q "c:\ghs\comp_201254\ansi"
+* ===[ CCT FILE CONTENT ]===
+*{
+* "PLATFORM" : "PLATFORM_WIN32",
+* "COMPILER_HIERARCHY" : "GHS_Multi_6.1.4",
+* "COMPILER_NAME": "PPC",
+* "COMPILER_VERSION": "201254",
+* "HOST": "standalone",
+* "TARGET": "GenericPPC",
+* "SOURCE_LANGUAGE": "C",
+* "COMPILER_CMD": "ccppc",
+* "ADDITIONAL_INCLUDES":"DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Stub",
+* "INCLUDE_LIST": [
+*   {"INCLUDE_STRUCTURE": {
+*       "INCLUDE_TYPE": "MasterScript",
+*       "INCLUDE_VALUE": "DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Script/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C.py"
+*       }
+*   },
+*   {"INCLUDE_STRUCTURE": {
+*       "INCLUDE_TYPE": "HelperScript",
+*           "INCLUDE_VALUE": ""
+*       }
+*   }
+* ],
+* "SYNCHRONISATION" : {
+*   "INCLUDE_FLAGS":"",
+*   "DEFINE_FLAGS":"",
+*   "SETTINGS_FILE_OPTIONS":{
+*       "FLAG":"",
+*       "EXTENSION":"",
+*       "LITERAL_QUOTES":""
+*       }
+*   }
+*}
+
+-d _Bool_DEFINED=1
+-d __ATTRIBUTES=1
+-d __BigEndian=1
+-d __CHAR_BIT=8
+-d __Char_Is_Unsigned__=1
+-d __DOUBLE_HL=1
+-d __EDG__=1
+-d __ELF=1
+-d __FREG_BIT=64
+-d __INT_BIT=32
+-d __LDBL_SIZE=8
+-d __LLONG_BIT=64
+-d __LONG_BIT=32
+-d __PROTOTYPES__=1
+-d __PTR_BIT=32
+-d __PowerPC=1
+-d __REG_BIT=32
+-d __SHRT_BIT=16
+-d __STDC_VERSION__=199409L
+-d __STDC__=0
+-d __WCHAR_BIT=32
+-d __ghs=1
+-d __ghs__=1
+-d __ghs_alignment=8
+-d __ghs_max_pack_value=16
+-d __ppc=1
+-s int=32
+-a int=4
+-s char=8
+-a char=1
+-u+
+-s short=16
+-a short=2
+-s long=32
+-a long=4
+-s longlong=64
+-a longlong=8
+-s float=32
+-a float=4
+-s double=64
+-a double=8
+-s ldouble=64
+-a ldouble=8
+-it "size_t=unsigned int"
+-it "ptrdiff_t=signed int"
+-it wchar_t=long
+-xn 513
+-na 513
+-ar+
+-ex ansipc
+-ex asm
+-ex c++
+-ex dollar 
+-ex longlong
+-fpc+
+-sl-
+-xc-
+-d "__INTADDR__=1 prl_ignore_paren"
+-d "__attribute__=_ignore_paren"
+-d "__const__=const"
+-d "__inline=inline"
+-d "__inline__=inline"
+-d "__interrupt="
+-d "__memory_changed=1 prl_ignore_paren"
+-d "__va_align=1 prl_ignore_paren"
+-d "__va_float=1 prl_ignore_paren"
+-d "__va_long=1 prl_ignore_paren"
+-d "__va_pointer=1 prl_ignore_paren"
+-d "__va_regtyp=1 prl_ignore_paren"
+-d "__va_vector=1 prl_ignore_paren"
+-d "_prl_null_expression=0 prl_ignore_paren"
+-d __INFINITY__=
+-d __NAN__=
+-d __generic=
+-d prl_ignore_paren=_ignore_paren
+-d "_PRL_STRINGIFY(x)=#x"
+* ===[ DEPENDENCY SETTINGS ]===
+-nrf C:\Perforce\M3CM-2.3.6\compulsory_config\m3cm.ncf
+* ===[ ACF FILE CONTENT ]===
+* ===[ ACTIVE MESSAGES ]===
+-o 0

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prqaproject xmlversion="3.0.0" qafversion="2.5.0">
+ <!-- Config file information... -->
+ <configurations>
+  <cosmetic_name name="QAC_MPC5748G"/>
+  <languageFamily name="C/C++"/>
+  <processMonitor>
+   <includeOptionSyntax>
+    <option string="-I"/>
+    <option string="/I"/>
+   </includeOptionSyntax>
+   <defineOptionSyntax>
+    <option string="-D"/>
+    <option string="/D"/>
+   </defineOptionSyntax>
+   <flagScript string=""/>
+   <settingsOptionSyntax>
+    <option compiler="Visual Studio" string="@" quotes_escaped="yes" extension=".rsp"/>
+    <option compiler="Windriver" string="-@" quotes_escaped="yes" extension=""/>
+    <option compiler="Greenhills" string="--Via" quotes_escaped="yes" extension="__i"/>
+   </settingsOptionSyntax>
+   <excludeStrings/>
+   <fileFilterStrings/>
+  </processMonitor>
+  <suppressIncludes active="no"/>
+  <exclusionPattern method="CSV"/>
+  <root_paths>
+   <root_path path="${PROJECT_ROOT}" name="SOURCE_ROOT"/>
+  </root_paths>
+  <default_config name="Initial"/>
+  <!-- Individual Configs... -->
+  <config name="Initial">
+   <baselinedSourceRoot baseline="OFF"/>
+   <baselineSnapshot id="" name="" date=""/>
+   <acf name="project.acf"/>
+   <rcf name="project.rcf"/>
+   <ccts>
+    <cct target="C" active="yes" name="GHS_MULTI614_PPC_201254_standalone_GenericPPC_C.cct"/>
+   </ccts>
+  </config>
+ </configurations>
+ <!-- Mapping of extension to target_language... -->
+ <file_extensions>
+  <language target="C">
+   <extension ext=".c"/>
+  </language>
+  <language target="C">
+   <extension ext=".C"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cpp"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cxx"/>
+  </language>
+  <language target="C++">
+   <extension ext=".cc"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CPP"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CXX"/>
+  </language>
+  <language target="C++">
+   <extension ext=".CC"/>
+  </language>
+ </file_extensions>
+ <!-- Files in project... -->
+ <folders>
+  <folder id="D:/Documents/My Projects/MPC5748G_demo1/src_hello">
+   <defines>
+    <define name="__ATTRIBUTES"/>
+    <define name="__BIG_ENDIAN__"/>
+    <define name="__BigEndian"/>
+    <define name="__BigEndian__"/>
+    <define name="__CHAR_BIT=8"/>
+    <define name="__CHAR_UNSIGNED__"/>
+    <define name="__CORE_PPCE200Z210__"/>
+    <define name="__Char_Is_Unsigned__"/>
+    <define name="__DOUBLE_HL"/>
+    <define name="__DOUBLE_HL__"/>
+    <define name="__EDG__"/>
+    <define name="__ELF"/>
+    <define name="__ELF__"/>
+    <define name="__Enum_Field_Is_Signed__"/>
+    <define name="__FREG_BIT=32"/>
+    <define name="__FUNCPTR_BIT=32"/>
+    <define name="__Field_Is_Unsigned__"/>
+    <define name="__GHS_NOCOMMONS"/>
+    <define name="__GHS_NOCOMMONS__"/>
+    <define name="__GHS_Optimize_Debug__"/>
+    <define name="__INT_BIT=32"/>
+    <define name="__IeeeFloat"/>
+    <define name="__IeeeFloat__"/>
+    <define name="__Int_Is_32"/>
+    <define name="__LANGUAGE_C"/>
+    <define name="__LANGUAGE_C__"/>
+    <define name="__LDBL_BIT=64"/>
+    <define name="__LDBL_SIZE=8"/>
+    <define name="__LLONG_BIT=64"/>
+    <define name="__LL_BIT=64"/>
+    <define name="__LL_Is_64"/>
+    <define name="__LONG_BIT=32"/>
+    <define name="__Long_Is_32"/>
+    <define name="__MAX_BIT=64"/>
+    <define name="__PROTOTYPES__"/>
+    <define name="__PTR_BIT=32"/>
+    <define name="__PowerPC"/>
+    <define name="__PowerPC__"/>
+    <define name="__Ptr_Is_32"/>
+    <define name="__Ptr_Is_Unsigned__"/>
+    <define name="__REG_BIT=32"/>
+    <define name="__Reg_Is_32"/>
+    <define name="__SHRT_BIT=16"/>
+    <define name="__STDC_HOSTED__=1"/>
+    <define name="__STDC_VERSION__=199901L"/>
+    <define name="__STDC__=1"/>
+    <define name="__SoftwareDouble"/>
+    <define name="__SoftwareDouble__"/>
+    <define name="__SoftwareFloat"/>
+    <define name="__SoftwareFloat__"/>
+    <define name="__TIME_T_BIT=32"/>
+    <define name="__WCHAR_BIT=32"/>
+    <define name="__WChar_Is_Long__"/>
+    <define name="__WChar_Is_Signed__"/>
+    <define name="__ghs"/>
+    <define name="__ghs__"/>
+    <define name="__ghs_alignment=8"/>
+    <define name="__ghs_asm"/>
+    <define name="__ghs_board_is_mpc5748g_demo"/>
+    <define name="__ghs_max_pack_value=16"/>
+    <define name="__ghs_sda"/>
+    <define name="__ghs_zda"/>
+    <define name="__powerpc__"/>
+    <define name="__ppc"/>
+    <define name="__ppc5748gz210"/>
+    <define name="__ppc5748gz210__"/>
+    <define name="__ppc__"/>
+    <define name="__vle"/>
+    <define name="__vle__"/>
+   </defines>
+   <includes>
+    <include path="C:/ghs/comp_201854_ppc/ansi"/>
+    <include path="C:/ghs/comp_201854_ppc/include/ppc"/>
+   </includes>
+  </folder>
+  <folder id="D:/Documents/My Projects/MPC5748G_demo1/tgt">
+   <defines>
+    <define name="EMBEDDED"/>
+   </defines>
+   <includes>
+    <include path="C:/ghs/comp_201854_ppc/src/libsys"/>
+   </includes>
+  </folder>
+ </folders>
+ <files>
+  <!-- Explicit files... -->
+  <file target="C" name="ind_crt0.c" folder="D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup"/>
+  <file target="C" name="ind_initmem.c" folder="D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup"/>
+  <file target="C" name="ind_uzip.c" folder="D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup"/>
+  <file target="C" name="hello.c" folder="D:/Documents/My Projects/MPC5748G_demo1/src_hello"/>
+ </files>
+</prqaproject>

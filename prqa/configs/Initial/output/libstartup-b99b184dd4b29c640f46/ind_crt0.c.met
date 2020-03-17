@@ -1,0 +1,584 @@
+<RDEF> I Includes
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" E:/Reagan/code/QAC_code/QAC_MPC5748G/prqa/configs/Initial/config/DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Stub/prlforceinclude/GH_ppc.h 0
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 126
+<DEFINE> __INDSTARTUP_H "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 14 I DF OM - - - O
+<RDEF> U Uses
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __INDSTARTUP_H 13 M
+<DEFINE> _PTRDIFF_T "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 21 I DF OM - - - O
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" _PTRDIFF_T 20 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __PTR_BIT 22 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __INT_BIT 22 M
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 22 7 I DN - F P
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 22 20 I DN - F P
+<DEFINE> ptrdiff_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 23 I DC OT F N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __LONG_BIT 24 M
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 33 5 I DN - F P
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 33 18 I DN - F P
+<DEFINE> syze_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 34 I DC OT F N ui -
+<DEFINE> signed_size_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 35 I DC OT F N ni -
+<DEFINE> size_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 46 I DF OM - - - O
+<EXTN> memcpy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48
+<DEFINE> s1 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N p. R
+<DEFINE> s2 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N p=. R
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N ui R
+<DEFINE> memcpy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OF F X (p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" syze_t 48 A
+<EXTN> memset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N p. R
+<DEFINE> c "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N ni R
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N ui R
+<DEFINE> memset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OF F X (p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" syze_t 49 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 128 weak __ghsbegin_picbase
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 129 weak __ghsbegin_robase
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 130 weak __ghsbegin_pidbase
+<EXTN> __ghsbegin_picbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 135
+<DEFINE> __ghsbegin_picbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 135 N DC OF F X (.,.) -
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 137 ghs rodata
+<EXTN> __ghsbegin_robase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 138
+<DEFINE> __ghsbegin_robase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 138 N DC OV F X [0,=_c] S
+<EXTN> __ghsbegin_pidbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 139
+<DEFINE> __ghsbegin_pidbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 139 N DC OV F X [0,_c] S
+<DEFINE> CONST_FUNCP "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 141 N DF OM - - - O
+<DEFINE> rodata_ptr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 176 N DC OT F N (.,.) -
+<DEFINE> PIRBASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 178 N DF OM - - - O
+<DEFINE> ABS_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DC OE F N ne -
+<DEFINE> ABS_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DF OE F N ne -
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 26 N ON ni F E
+<DEFINE> PIC_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DC OE F N ne -
+<DEFINE> PIC_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DF OE F N ne -
+<DEFINE> PIR_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DC OE F N ne -
+<DEFINE> PIR_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DF OE F N ne -
+<DEFINE> PID_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DC OE F N ne -
+<DEFINE> PID_SEC "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DF OE F N ne -
+<DEFINE> SECTION_BASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 183 N DC OT F N {e} -
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 185 ghs rodata
+<EXTN> __ghsbegin_secinfo "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 186
+<DEFINE> __ghsbegin_secinfo "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 186 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 186 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" size_t 211 M
+<DEFINE> caddr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 211 N DC OT F N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 211 A
+<DEFINE> crt1_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 213 N DC OT F N (.,ni,pp_c,pp_c) -
+<DEFINE> memcpy_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 214 N DC OT F N (p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 214 A
+<DEFINE> memset_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 215 N DC OT F N (p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 215 A
+<DEFINE> decompress_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 216 N DC OT F N (ui,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 216 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 216 A
+<DEFINE> boardcachesync_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 217 N DC OT F N (.,p.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 217 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" __attribute__ 219 M
+<DEFINE> crt1_fptr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 219 N DC OT F N p(.,ni,pp_c,pp_c) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_t 219 A
+<DEFINE> memcpy_fptr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 220 N DC OT F N p(p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_t 220 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 220 A
+<DEFINE> memset_fptr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 221 N DC OT F N p(p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_t 221 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 221 A
+<DEFINE> decompress_fptr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 222 N DC OT F N p(ui,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_t 222 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 222 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 222 A
+<DEFINE> boardcachesync_fptr_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 223 N DC OT F N p(.,p.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_t 223 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 223 A
+<EXTN> __ghs_ind_crt1 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 226
+<DEFINE> __ghs_ind_crt1 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 226 N DC OF F X (.,ni,pp_c,pp_c) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_t 226 A
+<DEFINE> memset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 227 N DR OF F X (p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_t 227 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 227 A
+<DEFINE> memcpy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 228 N DR OF F X (p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_t 228 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 228 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 229 weak __ghs_board_cache_sync
+<EXTN> __ghs_board_cache_sync "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 230
+<DEFINE> __ghs_board_cache_sync "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 230 N DC OF F X (.,p.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_t 230 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 230 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 231 weak __ghs_undefined_func
+<EXTN> __ghs_undefined_func "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 232
+<DEFINE> __ghs_undefined_func "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 232 N DC OF F X (.,p.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_t 232 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 232 A
+<EXTN> __ghs_initmem "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 244
+<DEFINE> __ghs_initmem "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 244 N DC OF F X (p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_t 244 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 244 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 246 weak __ghs_decompress
+<EXTN> __ghs_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 247
+<DEFINE> __ghs_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 247 N DC OF F X (ui,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_t 247 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 247 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 247 A
+<DEFINE> PICBASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 249 N DF OM - - - O
+<DEFINE> PIDBASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 250 N DF OM - - - O
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 256 ghs rodata
+<EXTN> __ghsbinfo_clear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 257
+<DEFINE> __ghsbinfo_clear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 257 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 257 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 258 ghs rodata
+<EXTN> __ghseinfo_clear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 259
+<DEFINE> __ghseinfo_clear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 259 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 259 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 260 weak __ghsbinfo_aclear
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 261 ghs rodata
+<EXTN> __ghsbinfo_aclear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 262
+<DEFINE> __ghsbinfo_aclear "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 262 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 262 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 263 ghs rodata
+<EXTN> __ghsbinfo_copy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 264
+<DEFINE> __ghsbinfo_copy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 264 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 264 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 265 ghs rodata
+<EXTN> __ghseinfo_copy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 266
+<DEFINE> __ghseinfo_copy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 266 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 266 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 267 ghs rodata
+<EXTN> __ghsbinfo_tcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 268
+<DEFINE> __ghsbinfo_tcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 268 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 268 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 269 weak __ghsbinfo_comcopy
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 270 ghs rodata
+<EXTN> __ghsbinfo_comcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 271
+<DEFINE> __ghsbinfo_comcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 271 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 271 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 272 weak __ghseinfo_comcopy
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 273 ghs rodata
+<EXTN> __ghseinfo_comcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 274
+<DEFINE> __ghseinfo_comcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 274 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 274 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 275 weak __ghsbinfo_comtcopy
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 276 ghs rodata
+<EXTN> __ghsbinfo_comtcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 277
+<DEFINE> __ghsbinfo_comtcopy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 277 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 277 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 278 ghs rodata
+<EXTN> __ghsbegin_fixaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 279
+<DEFINE> __ghsbegin_fixaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 279 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 279 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 280 ghs rodata
+<EXTN> __ghsend_fixaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 281
+<DEFINE> __ghsend_fixaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 281 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 281 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 282 ghs rodata
+<EXTN> __ghsbegin_fixtype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 283
+<DEFINE> __ghsbegin_fixtype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 283 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 283 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 284 ghs rodata
+<EXTN> __ghsend_fixtype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 285
+<DEFINE> __ghsend_fixtype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 285 N DC OF F X (.,.) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" rodata_ptr 285 A
+<DEFINE> FIXTYPE_WEAK "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 288 N DF OM - - - O
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 288 26 N DN - F M
+<LIT> 7 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 288 29 N DN - F M
+<DEFINE> FIXTYPE_WORD "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 289 N DF OM - - - O
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 289 26 N DN - F M
+<LIT> 3 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 289 29 N DN - F M
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 298 ghs static_call __ghs_ind_crt1
+<EXTD> __ghs_ind_crt0 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307
+<DEFINE> baseptrs "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DC OV B N pp_c R
+<DEFINE> argc "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DC OV B N ni R
+<DEFINE> argv "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DC OV B N pp_c R
+<DEFINE> envp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DC OV B N pp_c R
+<DEFINE> __ghs_ind_crt0 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DC OF F X (.,pp_c,ni,pp_c,pp_c) -
+<DEFINE> __ghs_ind_crt0 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 307 N DF OF F X (.,pp_c,ni,pp_c,pp_c) -
+<LIT> 4 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 309 17 N DN ni B D
+<DEFINE> BASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 309 N DC OV B N [4,ui] -
+<DEFINE> BASE "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 309 N DF OV B N [4,ui] -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 309 A
+<DEFINE> picbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DC OV B N ui -
+<DEFINE> picbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 311 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 311 A
+<DEFINE> robase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DC OV B N ui -
+<DEFINE> robase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 311 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 311 A
+<DEFINE> pidbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DC OV B N ui -
+<DEFINE> pidbase "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 311 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 311 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 311 A
+<DEFINE> rambootcodestart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 312 N DC OV B N ui -
+<DEFINE> rambootcodestart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 312 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 312 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 312 A
+<DEFINE> rambootcodeend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 312 N DC OV B N ui -
+<DEFINE> rambootcodeend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 312 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 312 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 312 A
+<DEFINE> rombootcodestart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 313 N DC OV B N ui -
+<DEFINE> rombootcodestart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 313 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 313 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 313 A
+<DEFINE> rombootcodeend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 313 N DC OV B N ui -
+<DEFINE> rombootcodeend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 313 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 313 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 313 A
+<DEFINE> secinfostart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DC OV B N ui -
+<DEFINE> secinfostart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 315 A
+<DEFINE> memsetstart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DC OV B N ui -
+<DEFINE> memsetstart "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 315 A
+<DEFINE> crt1start "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DC OV B N ui -
+<DEFINE> crt1start "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 315 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 315 A
+<DEFINE> SCIFIX "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 316 N DC OV B N ni -
+<DEFINE> SCIFIX "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 316 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 316 A
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 316 24 N ON ni B O
+<DEFINE> crt1p "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 328 N DC OV B N p(.,ni,pp_c,pp_c) -
+<DEFINE> crt1p "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 328 N DF OV B N p(.,ni,pp_c,pp_c) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_fptr_t 328 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_t 328 A
+<RDEF> X Refers-to
+<R>X __ghs_ind_crt0 __ghs_ind_crt1 328 R
+<DEFINE> memsetp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 329 N DC OV B N p(p.,p.,ni,ui) -
+<DEFINE> memsetp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 329 N DF OV B N p(p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_fptr_t 329 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_t 329 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 329 A
+<R>X __ghs_ind_crt0 memset 329 R
+<DEFINE> memcpyp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 333 N DC OV B N p(p.,p.,p=.,ui) -
+<DEFINE> memcpyp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 333 N DF OV B N p(p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_fptr_t 333 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_t 333 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 333 A
+<R>X __ghs_ind_crt0 memcpy 333 R
+<DEFINE> decompressp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 335 N DC OV B N p(ui,p.,p=.,ui) -
+<DEFINE> decompressp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 335 N DF OV B N p(ui,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_fptr_t 335 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_t 335 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 335 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 335 A
+<R>X __ghs_ind_crt0 __ghs_decompress 335 R
+<DEFINE> boardcachesyncp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 339 N DC OV B N p(.,p.,ui) -
+<DEFINE> boardcachesyncp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 339 N DF OV B N p(.,p.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_fptr_t 339 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_t 339 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 339 A
+<R>X __ghs_ind_crt0 __ghs_board_cache_sync 339 R
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 379 ghs nowarning 1977
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 382 A
+<R>X __ghs_ind_crt0 __ghsbegin_secinfo 382 R
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 383 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 384 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 385 ghs endnowarning 1977
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 395 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 395 A
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 395 33 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 396 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 396 A
+<LIT> 2 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 396 32 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 397 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 397 A
+<LIT> 3 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 397 33 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 398 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 398 A
+<LIT> 4 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 398 42 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 399 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 399 A
+<LIT> 5 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 399 40 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 400 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 400 A
+<LIT> 6 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 400 42 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 401 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 401 A
+<LIT> 7 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 401 40 N DN ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 403 27 N ON ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 404 27 N ON ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 405 27 N ON ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 406 27 N ON ni B X
+<DEFINE> ramtoromoffset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 412 N DC OV B N ni -
+<DEFINE> ramtoromoffset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 412 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 412 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 420 ghs nowarning 1977
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_fptr_t 423 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memset_t 423 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 423 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_fptr_t 424 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" memcpy_t 424 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 424 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_fptr_t 425 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" decompress_t 425 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 425 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 425 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_fptr_t 427 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" boardcachesync_t 427 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 427 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 429 ghs endnowarning 1977
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 445 ghs nowarning 1977
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_fptr_t 446 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" crt1_t 446 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 447 ghs endnowarning 1977
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 450 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 450 A
+<R>X __ghs_ind_crt0 __ghsbegin_picbase 450 R
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 451 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 451 A
+<R>X __ghs_ind_crt0 __ghsbegin_robase 451 R
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" caddr_t 452 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 452 A
+<R>X __ghs_ind_crt0 __ghsbegin_pidbase 452 R
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 465 N DC OV B N pp. -
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 465 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_clear 465 R
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 466 N DC OV B N pp. -
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 466 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghseinfo_clear 466 R
+<DEFINE> a "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 467 N DC OV B N pp. -
+<DEFINE> a "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 467 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_aclear 467 R
+<R>X __ghs_ind_crt0 __ghsbinfo_aclear 468 R
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 481 N DC OV B N p. -
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 481 N DF OV B N p. -
+<DEFINE> v "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 482 N DC OV B N ni -
+<DEFINE> v "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 482 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 482 A
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 483 N DC OV B N ui -
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 483 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 483 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" PIDBASE 498 M
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 498 32 N ON ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 499 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 500 A
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 519 N DC OV B N pp. -
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 519 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_copy 519 R
+<DEFINE> m "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 520 N DC OV B N pp. -
+<DEFINE> m "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 520 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_tcopy 520 R
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 521 N DC OV B N pp. -
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 521 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghseinfo_copy 521 R
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 524 N DC OV B N p. -
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 524 N DF OV B N p. -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 525 N DC OV B N p. -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 525 N DF OV B N p. -
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 526 N DC OV B N ui -
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 526 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 526 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" PICBASE 527 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" PIRBASE 528 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 529 A
+<R>X __ghs_ind_crt0 __ghs_decompress 560 R
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 563 N DC OV B N pp. -
+<DEFINE> b "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 563 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_comcopy 563 R
+<DEFINE> m "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 564 N DC OV B N pp. -
+<DEFINE> m "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 564 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghsbinfo_comtcopy 564 R
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 565 N DC OV B N pp. -
+<DEFINE> e "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 565 N DF OV B N pp. -
+<R>X __ghs_ind_crt0 __ghseinfo_comcopy 565 R
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 568 N DC OV B N p_c -
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 568 N DF OV B N p_c -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 569 N DC OV B N p_c -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 569 N DF OV B N p_c -
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 570 N DC OV B N ui -
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 570 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 570 A
+<DEFINE> n_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 571 N DC OV B N ui -
+<DEFINE> n_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 571 N DF OV B N ui -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 571 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 574 A
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 655 weak __ghsbegin_fixtype
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 656 weak __ghsend_fixtype
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 658 weak __ghsbegin_fixaddr
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 659 weak __ghsend_fixaddr
+<PRAGMA> "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 661 weak __ghs_checksum
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 682 A
+<DEFINE> UNAL_PTR "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 682 N DC MB B N ni -
+<DEFINE> INIT_PTR "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 682 N DC OT B N {s} -
+<EXTN> __ghs_checksum "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 685
+<DEFINE> __ghs_checksum "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 685 N DC OV B X [0,_c] S
+<DEFINE> ppaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 687 N DC OV B N pp_c -
+<DEFINE> ppaddr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 687 N DF OV B N pp_c -
+<R>X __ghs_ind_crt0 __ghsbegin_fixaddr 687 R
+<DEFINE> ppaddrend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 688 N DC OV B N pp_c -
+<DEFINE> ppaddrend "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 688 N DF OV B N pp_c -
+<R>X __ghs_ind_crt0 __ghsend_fixaddr 688 R
+<DEFINE> ptype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 689 N DC OV B N p_c -
+<DEFINE> ptype "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 689 N DF OV B N p_c -
+<R>X __ghs_ind_crt0 __ghsbegin_fixtype 689 R
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 699 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" syze_t 700 A
+<R>X __ghs_ind_crt0 __ghs_checksum 700 R
+<DEFINE> tmp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 703 N DC OV B N ni -
+<DEFINE> tmp "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 703 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 703 A
+<DEFINE> Base "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 704 N DC OV B N ni -
+<DEFINE> Base "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 704 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 704 A
+<DEFINE> ptr_to_init_ptr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 705 N DC OV B N p{sINIT_PTR} -
+<DEFINE> ptr_to_init_ptr "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 705 N DF OV B N p{sINIT_PTR} -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" INIT_PTR 705 A
+<DEFINE> type "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 706 N DC OV B N ni -
+<DEFINE> type "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 706 N DF OV B N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 712 A
+<LIT> 3 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 712 42 N DN ni B X
+<LIT> 4 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 712 45 N DN ni B X
+<LIT> 4 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 712 52 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" INIT_PTR 713 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" FIXTYPE_WEAK 717 M
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 717 39 N ON ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 718 23 N ON ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" ptrdiff_t 720 A
+<LIT> 3 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 720 44 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" FIXTYPE_WORD 725 M
+<LIT> 2 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 725 44 N DN ni B X
+<LIT> 2 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c" 727 44 N DN ni B X
+<CTLG> __ghs_ind_crt0 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 13
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 10
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 14
+<CTLG> 16 17
+<CTLG> 16 23
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 18 22
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 22 16
+<CTLG> 23 24
+<CTLG> 23 32
+<CTLG> 24 25
+<CTLG> 24 31
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 26 30
+<CTLG> 27 28
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 24
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 32 34
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 34 48
+<CTLG> 35 36
+<CTLG> 36 37
+<CTLG> 36 47
+<CTLG> 37 38
+<CTLG> 38 39
+<CTLG> 38 41
+<CTLG> 39 34
+<CTLG> 41 42
+<CTLG> 41 43
+<CTLG> 42 43
+<CTLG> 43 44
+<CTLG> 44 45
+<CTLG> 44 46
+<CTLG> 45 46
+<CTLG> 46 47
+<CTLG> 47 34
+<CTLG> 48 49
+<CTLG> 49 51
+<CTLGN> 308 411 411 413 413 417 426 426 426 417 442 442 411 449 480 480 523 536 536 537 537 536 523 560 567 584 584 585 585 584 567 560 698 698 702 718 718 722 722 723 722 725 725 727 727 727 718 702 790 790 790 
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c"
+<S>STNAM  __ghs_ind_crt0
+<S>STCYC  20
+<S>STMCC  5 (20:25)
+<S>STMIF  4
+<S>STFDT  43
+<S>STFDN  120
+<S>STSUB  6
+<S>STAKI  26
+<S>STLIN  481
+<S>STXLN  91
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  1
+<S>STKDN  0.01   
+<S>STUNV  0
+<S>STLCT  44
+<S>STPTH  10400
+<S>NPATH  241472
+<S>STPDN  114.29 
+<S>STPBG  4
+<S>STLOP  5
+<S>STM07  5
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  14
+<S>STAV3  23
+<S>STST1  136
+<S>STST2  120
+<S>STST3  74
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  1348
+<S>STFN2  363
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c"
+<S>STNAM  __ghs_ind_crt0
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c"
+<S>STNAM  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_crt0.c"
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  3
+<S>STFNC  1
+<S>STFCO  6
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  165
+<S>STOPT  59
+<S>STOPN  238
+<S>STTOT  3212
+<S>STZIP  1862
+<S>STHAL  2226
+<S>STSHN  8414
+<S>STDIF  21.40  
+<S>STEFF  564551
+<S>STVOL  26384
+<S>STDEV  94.09  
+<S>STBUG  7
+<S>STTPP  891
+<S>STTLN  170
+<S>STM20  991
+<S>STM21  2220
+<S>STM22  236
+<S>STM28  202
+<S>STM33  158
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  2.126  
+<S>STBMS  2.636  
+<S>STBME  3.134  
+<S>STTDO  3.330  
+<S>STTDS  3.510  
+<S>STTDE  3.603  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.741  
+

@@ -1,0 +1,195 @@
+<RDEF> I Includes
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" E:/Reagan/code/QAC_code/QAC_MPC5748G/prqa/configs/Initial/config/DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Stub/prlforceinclude/GH_ppc.h 0
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 24
+<DEFINE> __INDSTARTUP_H "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 14 I DF OM - - - O
+<RDEF> U Uses
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __INDSTARTUP_H 13 M
+<DEFINE> _PTRDIFF_T "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 21 I DF OM - - - O
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" _PTRDIFF_T 20 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __PTR_BIT 22 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __INT_BIT 22 M
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 22 7 I DN - F P
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 22 20 I DN - F P
+<DEFINE> ptrdiff_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 23 I DC OT F N ni -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" __LONG_BIT 24 M
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 33 5 I DN - F P
+<LIT> 32 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 33 18 I DN - F P
+<DEFINE> syze_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 34 I DC OT F N ui -
+<DEFINE> signed_size_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 35 I DC OT F N ni -
+<DEFINE> size_t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 46 I DF OM - - - O
+<EXTN> memcpy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48
+<DEFINE> s1 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N p. R
+<DEFINE> s2 "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N p=. R
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OV P N ui R
+<DEFINE> memcpy "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 48 I DC OF F X (p.,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" syze_t 48 A
+<EXTN> memset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N p. R
+<DEFINE> c "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N ni R
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OV P N ui R
+<DEFINE> memset "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" 49 I DC OF F X (p.,p.,ni,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_startup.h" syze_t 49 A
+<DEFINE> DECODE_N "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 27 N DF OM - - - O
+<LIT> 4096 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 27 27 N DN - F M
+<DEFINE> DECODE_F "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 28 N DF OM - - - O
+<LIT> 18 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 28 27 N DN - F M
+<DEFINE> DECODE_THRESHOLD "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 29 N DF OM - - - O
+<LIT> 2 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 29 27 N DN - F M
+<EXTD> __ghs_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37
+<DEFINE> dst "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37 N DC OV B N p. R
+<DEFINE> src "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37 N DC OV B N p=. R
+<DEFINE> n "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37 N DC OV B N ui R
+<DEFINE> __ghs_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37 N DC OF F X (ui,p.,p=.,ui) -
+<DEFINE> __ghs_decompress "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 37 N DF OF F X (ui,p.,p=.,ui) -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" syze_t 37 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" syze_t 37 A
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" syze_t 37 A
+<DEFINE> r "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 39 N DC OV B N ni -
+<DEFINE> r "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 39 N DF OV B N ni -
+<DEFINE> c "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 39 N DC OV B N ni -
+<DEFINE> c "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 39 N DF OV B N ni -
+<DEFINE> flags "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 40 N DC OV B N ui -
+<DEFINE> flags "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 40 N DF OV B N ui -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 42 N DC OV B N p=uc -
+<DEFINE> s "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 42 N DF OV B N p=uc -
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 43 N DC OV B N puc -
+<DEFINE> t "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 43 N DF OV B N puc -
+<DEFINE> s_stop "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 45 N DC OV B N p=uc -
+<DEFINE> s_stop "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 45 N DF OV B N p=uc -
+<DEFINE> t_start "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 46 N DC OV B N puc -
+<DEFINE> t_start "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 46 N DF OV B N puc -
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" DECODE_N 49 M
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" DECODE_F 49 M
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 50 13 N ON ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 52 25 N DN ni B X
+<LIT> 0x100 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 52 30 N HN ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 52 40 N ON ni B X
+<LIT> 0xff00 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 58 25 N HN ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 60 21 N DN ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 64 23 N DN ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 64 40 N DN ni B X
+<DEFINE> pattern "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 69 N DC OV B N puc -
+<DEFINE> pattern "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 69 N DF OV B N puc -
+<DEFINE> patoff "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DC OV B N ni -
+<DEFINE> patoff "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DF OV B N ni -
+<DEFINE> patlen "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DC OV B N ni -
+<DEFINE> patlen "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DF OV B N ni -
+<DEFINE> i "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DC OV B N ni -
+<DEFINE> i "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 70 N DF OV B N ni -
+<LIT> 0xf0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 74 34 N HN ni B X
+<LIT> 4 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 74 43 N DN ni B X
+<R>U "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" DECODE_THRESHOLD 75 M
+<LIT> 0x0f - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 75 32 N HN ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 75 59 N DN ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 86 20 N ON ni B X
+<LIT> 0 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 88 24 N ON ni B X
+<LIT> 1 - P "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c" 96 45 N DN ni B X
+<CTLG> __ghs_decompress 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 20
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 19
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 14
+<CTLG> 12 13
+<CTLG> 13 11
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 18
+<CTLG> 16 17
+<CTLG> 17 15
+<CTLG> 18 19
+<CTLG> 19 2
+<CTLG> 20 22
+<CTLGN> 38 51 51 52 52 60 60 78 78 78 87 87 87 87 93 93 93 93 65 51 100 100 
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c"
+<S>STNAM  __ghs_decompress
+<S>STCYC  7
+<S>STMCC  2 (7:9)
+<S>STMIF  3
+<S>STFDT  32
+<S>STFDN  29
+<S>STSUB  0
+<S>STAKI  7
+<S>STLIN  62
+<S>STXLN  30
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  11
+<S>STPTH  19
+<S>NPATH  35
+<S>STPDN  0.63   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  41
+<S>STST2  35
+<S>STST3  24
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  204
+<S>STFN2  82
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c"
+<S>STNAM  __ghs_decompress
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c"
+<S>STNAM  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_uzip.c"
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  1
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  19
+<S>STOPT  36
+<S>STOPN  37
+<S>STTOT  322
+<S>STZIP  355
+<S>STHAL  379
+<S>STSHN  1307
+<S>STDIF  21.61  
+<S>STEFF  43068
+<S>STVOL  1993
+<S>STDEV  7.18   
+<S>STBUG  1
+<S>STTPP  101
+<S>STTLN  42
+<S>STM20  100
+<S>STM21  221
+<S>STM22  26
+<S>STM28  17
+<S>STM33  11
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.216  
+<S>STBMS  0.230  
+<S>STBME  0.230  
+<S>STTDO  1.397  
+<S>STTDS  1.495  
+<S>STTDE  1.562  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.979  
+

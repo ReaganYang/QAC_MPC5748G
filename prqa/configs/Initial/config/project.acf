@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<acf xmlversion="2.0.0">
+  <components>
+    <component version="9.6.0" target="C" name="qac"/>
+    <component version="4.4.0" target="C++" name="qacpp"/>
+    <component version="2.0.0" target="C_CPP" name="rcma"/>
+    <component version="2.3.6" target="C" name="m3cm"/>
+  </components>
+  <component_settings>
+    <input_to version="9.6.0" target="C" component="qac">
+      <option argument="C:\ghs\comp_201854_ppc\ansi" name="-i "/>
+    </input_to>
+  </component_settings>
+</acf>

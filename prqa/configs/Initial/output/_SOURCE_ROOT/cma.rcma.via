@@ -1,0 +1,49 @@
+﻿-ppl+
+-ppf+
+* ===[ DEPENDENCY SETTINGS ]===
+-po close_name::any_case
+-po "close_name::ignore=['_']"
+-po "close_name::similar=['I1l','O0','nh','2Z','5S','B8','rn:m']"
+-po close_name::sig_char=31
+* ===[ ACF FILE CONTENT ]===
+* ===[ ACTIVE MESSAGES ]===
+-O 1509
+-O 1510
+-O 1530
+-O 1565
+-O 1566
+-O 1567
+-O 1568
+-O 1570
+-O 1571
+-O 1572
+-O 1573
+-O 1574
+-O 1575
+-O 1576
+-O 1577
+-O 1578
+-O 1579
+-O 1580
+-O 1581
+-O 1582
+-O 1583
+-O 1584
+-O 1585
+-O 1586
+-O 1587
+-O 1588
+-O 1589
+-O 1590
+-O 1591
+-O 1592
+-O 1593
+-O 1594
+-O 1595
+-O 1596
+-O 1597
+-O 1598
+-O 1599
+-O 3966
+-O 3967
+-O 3968

@@ -1,0 +1,99 @@
+<RDEF> I Includes
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_initmem.c" E:/Reagan/code/QAC_code/QAC_MPC5748G/prqa/configs/Initial/config/DATA/GHS_MULTI614_PPC_201254_standalone_GenericPPC_C/Stub/prlforceinclude/GH_ppc.h 0
+<R>I "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_initmem.c" C:/ghs/comp_201854_ppc/ansi/stddef.h 20
+<RDEF> U Uses
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h __ghs__ 14 M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stddef.h 15 ghs startnomisra
+<DEFINE> _STDDEF_H C:/ghs/comp_201854_ppc/ansi/stddef.h 17 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h _STDDEF_H 13 M
+<R>I C:/ghs/comp_201854_ppc/ansi/stddef.h C:/ghs/comp_201854_ppc/ansi/ghs_null.h 19
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 12 5 I ON - F P
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_null.h 22 ghs startnomisra
+<DEFINE> NULL C:/ghs/comp_201854_ppc/ansi/ghs_null.h 36 I DF OM - - - O
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 36 27 I ON - F M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h NULL 34 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __LLONG_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __PTR_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __LONG_BIT 37 M
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h __INT_BIT 39 M
+<DEFINE> _SIZE_T C:/ghs/comp_201854_ppc/ansi/ghs_null.h 46 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h _SIZE_T 45 M
+<DEFINE> _SIZE_T_DEFINED C:/ghs/comp_201854_ppc/ansi/ghs_null.h 47 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_null.h _SIZE_T_DEFINED 45 M
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 48 31 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 48 43 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 50 9 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_null.h 50 21 I DN - F P
+<DEFINE> size_t C:/ghs/comp_201854_ppc/ansi/ghs_null.h 53 I DC OT F N ui -
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_null.h 58 ghs endnomisra
+<R>I C:/ghs/comp_201854_ppc/ansi/stddef.h C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 20
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 25 ghs startnomisra
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h __WCHAR_BIT 35 M
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 35 9 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 35 24 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 37 9 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 37 24 I DN - F P
+<DEFINE> __WCHAR_TYPE__ C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 38 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h __WCHAR_TYPE__ 30 M
+<DEFINE> wchar_t C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 54 I DC OT F N nl -
+<DEFINE> _WCHAR_T C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 56 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h _WCHAR_T 19 M
+<DEFINE> _WCHAR_T_DEFINED C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 57 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h _WCHAR_T_DEFINED 19 M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/ghs_wchar.h 59 ghs endnomisra
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h __EDG__ 26 M
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h __ghs_max_pack_value 26 M
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stddef.h 27 pack (push, 16)
+<DEFINE> _PTRDIFF_T C:/ghs/comp_201854_ppc/ansi/stddef.h 31 I DF OM - - - O
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h _PTRDIFF_T 30 M
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 32 7 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 32 20 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 32 35 I DN - F P
+<LIT> 32 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 32 48 I DN - F P
+<DEFINE> ptrdiff_t C:/ghs/comp_201854_ppc/ansi/stddef.h 33 I DC OT F N ni -
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 41 49 I DN - F P
+<LIT> 2 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 41 98 I DN - F P
+<R>U C:/ghs/comp_201854_ppc/ansi/stddef.h __STDC__ 43 M
+<DEFINE> offsetof C:/ghs/comp_201854_ppc/ansi/stddef.h 44 I DF OM - - - F
+<LIT> 0 - P C:/ghs/comp_201854_ppc/ansi/stddef.h 44 48 I ON - F M
+<LIT> 201103 L P C:/ghs/comp_201854_ppc/ansi/stddef.h 55 45 I DN - F P
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stddef.h 78 pack(pop)
+<PRAGMA> C:/ghs/comp_201854_ppc/ansi/stddef.h 85 ghs endnomisra
+<S>
+<S>STFIL  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_initmem.c"
+<S>STNAM  "D:/Documents/My Projects/MPC5748G_demo1/tgt/libstartup/ind_initmem.c"
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  0
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  43
+<S>STOPT  48
+<S>STOPN  107
+<S>STTOT  896
+<S>STZIP  871
+<S>STHAL  989
+<S>STSHN  3596
+<S>STDIF  26.38  
+<S>STEFF  171983
+<S>STVOL  6519
+<S>STDEV  28.66  
+<S>STBUG  3
+<S>STTPP  214
+<S>STTLN  0
+<S>STM20  258
+<S>STM21  636
+<S>STM22  68
+<S>STM28  44
+<S>STM33  10
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.475  
+<S>STBMS  0.534  
+<S>STBME  0.566  
+<S>STTDO  1.885  
+<S>STTDS  2.007  
+<S>STTDE  2.084  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.637  
+

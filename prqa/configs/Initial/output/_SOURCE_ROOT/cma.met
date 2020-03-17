@@ -1,0 +1,376 @@
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdarg.h
+<S>STNAM __gh_va_arg
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_board_cache_sync
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_decompress
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM __ghs_flock_in_use
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_ind_crt0
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_ind_crt1
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_initmem
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghs_undefined_func
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbegin_fixaddr
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbegin_fixtype
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbegin_picbase
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbegin_secinfo
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_aclear
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_clear
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_comcopy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_comtcopy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_copy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsbinfo_tcopy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghseinfo_clear
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghseinfo_comcopy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghseinfo_copy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsend_fixaddr
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM __ghsend_fixtype
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdarg.h
+<S>STNAM __va_arg
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM _filbuf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM _flsbuf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM clearerr
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fclose
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fdopen
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM feof
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM ferror
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fflush
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fgetc
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fgetpos
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fgets
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fileno
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM flockcreate
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM flockdestroy
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM flockfile
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fopen
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fputc
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fputs
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fread
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM freopen
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fscanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fseek
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fsetpos
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM ftell
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM ftrylockfile
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM funlockfile
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM fwrite
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM getc
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM getc_unlocked
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM getchar
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM getchar_unlocked
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM gets
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\src_hello\hello.c"
+<S>STNAM main
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM memcpy
+<S>STM29 0
+<S>
+<S>STFIL "D:\Documents\My Projects\MPC5748G_demo1\tgt\libstartup\ind_crt0.c"
+<S>STNAM memset
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM perror
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM printf
+<S>STM29 1
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM putc
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM putc_unlocked
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM putchar
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM putchar_unlocked
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM puts
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM remove
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM rename
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM rewind
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM scanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM setbuf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM setvbuf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM snprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM sprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM sscanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM tmpfile
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM tmpnam
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM ungetc
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vfprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vfscanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vscanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vsnprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vsprintf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM vsscanf
+<S>STM29 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\ghs_valist.h
+<S>STNAM _gh_va_struct
+<S>STCBO 0
+<S>STLCM 0
+<S>STNOC 0
+<S>STRFC 0
+<S>STWMC 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\stdio.h
+<S>STNAM _iobuf
+<S>STCBO 0
+<S>STLCM 0
+<S>STNOC 0
+<S>STRFC 0
+<S>STWMC 0
+<S>
+<S>STFIL C:\ghs\comp_201854_ppc\ansi\ghs_valist.h
+<S>STNAM _va_struct
+<S>STCBO 0
+<S>STLCM 0
+<S>STNOC 0
+<S>STRFC 0
+<S>STWMC 0
+<S>
+<S>STFIL E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\output\_SOURCE_ROOT\cma
+<S>STNAM E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\output\_SOURCE_ROOT\cma
+<S>STCYA 28
+<S>STNEA 2
+<S>STNFA 3
+<S>STNGV 0
+<S>STNRA 0

@@ -1,0 +1,7 @@
+-i "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude"
+-q "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude"
+-fi "E:\Reagan\code\QAC_code\QAC_MPC5748G\prqa\configs\Initial\config\DATA\GHS_MULTI614_PPC_201254_standalone_GenericPPC_C\Stub\prlforceinclude\GH_ppc.h"
+-i "c:\ghs\comp_201254\include\ppc"
+-q "c:\ghs\comp_201254\include\ppc"
+-i "c:\ghs\comp_201254\ansi"
+-q "c:\ghs\comp_201254\ansi"
